@@ -17,6 +17,13 @@
   ],
   "author": "Vipin Jangra",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vipin-jangra/adoptme-hook"
+  },
+  "bugs": {
+    "url": "https://github.com/vipin-jangra/adoptme-hook/issues"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
