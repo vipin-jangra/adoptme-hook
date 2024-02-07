@@ -1,0 +1,28 @@
+{
+  "name": "adoptme-hook",
+  "version": "1.0.0",
+  "type"  :"module",
+  "description": "This in an NPM to fetch you the dogs to Adopt ",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev" : "rollup -c --environment NODE_ENV:development",
+    "build:prod" : "rollup -c --environment NODE_ENV:production"
+  },
+  "keywords": [
+    "react",
+    "adopt",
+    "dogs",
+    "hooks",
+    "npm"
+  ],
+  "author": "Vipin Jangra",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.9.0"
+  }
+}
